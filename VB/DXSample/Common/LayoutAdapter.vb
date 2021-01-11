@@ -8,7 +8,7 @@ Namespace DXSample.Common
 	Public Class LayoutAdapter
 		Implements ILayoutAdapter
 
-		Public Function Resolve(ByVal owner As DockLayoutManager, ByVal item As Object) As String
+		Public Function Resolve(ByVal owner As DockLayoutManager, ByVal item As Object) As String  Implements ILayoutAdapter.Resolve
 			Dim tempVar As Boolean = TypeOf item Is PanelViewModel
 			Dim panelViewModel As PanelViewModel = If(tempVar, CType(item, PanelViewModel), Nothing)
 			If tempVar Then
