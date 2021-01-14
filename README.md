@@ -11,6 +11,6 @@ Follow the steps below to use the LayoutAdapter in your application:
 
 3. Assign a LayoutAdapter instance to the **MVVMHelper.LayoutAdapter** attached property on the [DockLayoutManager](https://docs.devexpress.com/wpf/DevExpress.Xpf.Docking.DockLayoutManager) to add the LayoutAdapter to DockLayoutManager.
 
-     *File to look at*: [MainWindow.xaml](https://github.com/DevExpress-Examples/docklayoutmanager-bind-view-model-collection-with-LayoutAdapters/blob/20.2.3%2B/CS/DXSample/MainWindow.xaml) (**VB**: [MainWindow.xaml](https://github.com/DevExpress-Examples/docklayoutmanager-bind-view-model-collection-with-LayoutAdapters/blob/20.2.3%2B/VB/DXSample/MainWindow.xaml))
+     *File to look at*: [MainView.xaml](https://github.com/DevExpress-Examples/docklayoutmanager-bind-view-model-collection-with-LayoutAdapters/blob/20.2.3%2B/CS/DXSample/Views/MainView.xaml) (**VB**: [MainView.xaml](https://github.com/DevExpress-Examples/docklayoutmanager-bind-view-model-collection-with-LayoutAdapters/blob/20.2.3%2B/VB/DXSample/Views/MainView.xaml))
 
 Refer to the [MVVM Support - Bind to a Collection of Dock Panels](https://docs.devexpress.com/WPF/11386/#non-existing-dock-panels-advanced) documentation topic for more information on how to bind a ViewModel collection to the **DockLayoutManager**.
