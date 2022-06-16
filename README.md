@@ -16,9 +16,11 @@ Follow the steps below to use the LayoutAdapter in your application:
 2. Implement the **Resolve** method. The method returns the target layout group name for the specified **DockLayoutManager** and the panel's ViewModel. When you implement the **Resolve** method, you can perform any action before a target name is returned. 
 3. Assign a LayoutAdapter instance to the **MVVMHelper.LayoutAdapter** attached property on the [DockLayoutManager](https://docs.devexpress.com/wpf/DevExpress.Xpf.Docking.DockLayoutManager) to add the LayoutAdapter to DockLayoutManager.
 
+<!-- default file list -->
 ## Files to Look At:
 * [MainWindow.xaml](./CS/DXSample/MainWindow.xaml) (**VB**: [MainWindow.xaml](./VB/DXSample/MainWindow.xaml))
 * [LayoutAdapter.cs](./CS/DXSample/Common/LayoutAdapter.cs) (**VB**: [LayoputAdapter.vb](./VB/DXSample/Common/LayoutAdapter.vb))
+<!-- default file list end -->
 
 ## Documentation
 
