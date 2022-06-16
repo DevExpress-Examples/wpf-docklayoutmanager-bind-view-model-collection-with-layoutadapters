@@ -7,8 +7,8 @@
     xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
     xmlns:dxdo="http://schemas.devexpress.com/winfx/2008/xaml/docking"
     Title="MainWindow"
-    Width="1000"
-    Height="800">
+    Width="600"
+    Height="400">
     <Grid>
         <Grid.DataContext>
             <ViewModels:MainViewModel />
