@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# DockLayoutManager - Bind the View Model Collection with LayoutAdapters
+# WPF Dock Layout Manager - Bind the View Model Collection with LayoutAdapters
 
 You can use the LayoutAdapters to place dock panels to existing dock groups, but also to groups which are not created yet. In this case, you should create the target group before you populate it with panels.
 
