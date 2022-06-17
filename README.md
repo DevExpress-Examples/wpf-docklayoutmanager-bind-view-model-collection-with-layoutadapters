@@ -5,7 +5,7 @@
 
 # WPF Dock Layout Manager - Bind the View Model Collection with LayoutAdapters
 
-You can use the LayoutAdapters to place dock panels to existing dock groups, but also to groups which are not created yet. In this case, you should create the target group before you populate it with panels.
+You can use LayoutAdapters to place dock panels in existing dock groups, as well as groups that have not yet been created. In this case, you should create the target group before you populate it with panels.
 
 ![image](https://user-images.githubusercontent.com/12169834/174016482-6466bbd9-3dde-4776-95bd-ac1423a09875.png)
 
