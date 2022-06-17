@@ -12,7 +12,7 @@ You can use LayoutAdapters to place dock panels in existing dock groups, as well
 Follow the steps below to use the LayoutAdapter in your application:
 
 1. Create a LayoutAdapter class that implements the **ILayoutAdapter** interface.
-2. Implement the **Resolve** method. The method returns the target layout group name for the specified **DockLayoutManager** and the panel's ViewModel. When you implement the **Resolve** method, you can perform any action before a target name is returned. 
+2. Implement the **Resolve** method. This method returns the target layout group name for the specified **DockLayoutManager** and the panel's ViewModel. When you implement the **Resolve** method, you can perform any action before the target name is returned.
 3. Assign a LayoutAdapter instance to the **MVVMHelper.LayoutAdapter** attached property on the [DockLayoutManager](https://docs.devexpress.com/wpf/DevExpress.Xpf.Docking.DockLayoutManager) to add the LayoutAdapter to DockLayoutManager.
 
 <!-- default file list -->
